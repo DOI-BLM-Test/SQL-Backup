@@ -1,3 +1,4 @@
+--These scripts do not effect enterprise backups.--
 -- This sql file creates initial, compressed backup files within @backup_directory and optionally copies the backup to @backup_directory_copy.
 -- The stored procedure supports full, differential and transaction log backups.  Use SQL Server Agent to schedule regular backups.
 -- The stored procedure prints messages for feedback when running within SSMS.  It also returns a 1 (success) or 0 (failure) if running as part of a larger process or SQL Agent job.
